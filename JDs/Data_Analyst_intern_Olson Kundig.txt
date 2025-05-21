@@ -1,0 +1,46 @@
+About the job
+Olson Kundig is a design practice founded on the ideas that buildings can serve as a bridge between nature, culture and people, and that inspiring surroundings have a positive effect on people’s lives. The firm’s work can be found across the globe, with projects as wide-ranging as huts to high rises, homes—often for art collectors—to academic, cultural and civic projects, museums and exhibition design, places of worship, creative production, urban design, and interior design.
+
+Currently, we are seeking a summer Data Analyst Intern to join and support our Data Analytics team and contribute to the overall excellence of work coming from Olson Kundig. This internships may begin in May or June at approximately 40 hours per week and will be 12 - 14 weeks in duration.
+
+As the Data Analyst Intern you will work with the Data Analytics Teams on our Data Governance program, and the creation of Dashboard tools and reports. This is an exciting opportunity to explore how data influences architectural workflows, project performance, and client engagement strategies. To succeed in this role, you should have excellent organizational and communication skills, problem identifying and solving skills, presentation skills, and a high commitment to data accuracy. This role will collaborate with internal teams to deliver exceptional results within specified deadlines.
+
+Primary Responsibilities:
+
+Data Governance: 
+Working with Operational teams, complete SOPs related to data gathering and entry into software systems.
+Assist with the collection and entry of Data.
+Complete audit processes for ensuring that data is accurate and updated appropriately.
+Data Reporting for BI Tools:
+Coordinate data requests and track progress of data projects.
+Work with the Data Analytics Team to contribute to the design and execution of Ad-Hoc reporting using SQL/Power BI while ensuring data integrity.
+
+Additional duties and projects: 
+As assigned or necessary.
+Education/Skills/Experience: 
+
+Pursuing a degree in Data Science, Statistics, Mathematics, Computer Science, Economics, or closely related field.
+Familiarity with Microsoft Suite, particularly MS Excel. 
+Familiarity with data visualization tools like Power BI.
+Familiarity with SQL, Python, or R is a plus.
+AGILE – able to adapt to an iterative, changing environment.
+Exhibits a high attention to detail and takes responsibility for delivering accurate, high-quality work.
+Demonstrates the ability in organizing tasks and resources effectively.
+Demonstrates problem-solving skills, including presenting solutions and recommendations.
+Communicates effectively verbally and in writing.
+Demonstrates a growth mindset and an aptitude for learning, including new software, systems, and tools.
+Exhibits a proactive mindset in all assigned tasks and projects. 
+
+What you will gain:
+
+Exposure to the intersection of data and design.
+Experience working in a dynamic, creative environment.
+Gaining technical experience with Excel, SQL, Power BI and large data platforms.
+Mentorship from experienced professionals in both architecture and data analytics.
+A portfolio of data projects that have real-world applications.
+
+Olson Kundig Practices Equal Employment Opportunity in All Job Openings. All Qualified Applicants Will Receive Consideration for Employment Without Regard to Race, Color, Ancestry, Gender, Age, Religion, Marital, Military or Veteran, or Citizenship Status, Sexual Orientation, Gender Expression and Identity, National Origin, the Presence of Any Sensory, Mental or Physical Disability, You or Your Family’s Genetic Information, or Any Other Basis Prohibited by Local, State, or Federal Law. Disabled Applicants May Request a Reasonable Accommodation at Any Point in the Employment Process. Applicants Hired for Positions with Access to Confidential Information Are Subject to a Criminal Background Check.
+
+As a firm, we are committed to pay practices that are fair, competitive, and reflect internal pay equity. At the time of posting this job, the hiring range for this position in Seattle is $25.75/hour. Final salary decisions are made based upon the extent and relatedness of the candidate’s education and experience and considering internal equity and external market factors.
+
+All applicants must be legally authorized to work in the United States without sponsorship and must already possess long-term work authorization.

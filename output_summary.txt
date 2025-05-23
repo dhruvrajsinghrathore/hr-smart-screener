@@ -1,0 +1,70 @@
+**Resume 1:**
+
+**Summary:**  
+Passionate Data Science professional with expertise in Python, SQL, Spark, and ETL processes, seeking an opportunity to contribute to a dynamic data infrastructure team.
+
+**Relevant Skills:**  
+- ETL Development  
+- Apache Airflow  
+- AWS (S3, EMR, Lambda)  
+- OLAP Modelling  
+- Python  
+
+**Main Highlight:**  
+"Designed and deployed high-performance ETL pipelines using PySpark and SQL in AWS EMR, improving data integrity by 35% and reducing processing time by 30%. Implemented scalable data models and dashboards to facilitate rapid issue resolution."
+
+---
+
+**Resume 2:**
+
+**Summary:**  
+Data Science professional with expertise in machine learning, deep learning, and big data applications. Experienced in building AI-driven solutions.
+
+**Relevant Skills:**  
+- RAG (Retrieval-Augmented Generation)  
+- LangChain  
+- Deep Learning  
+- Image Processing  
+
+**Main Highlight:**  
+"Built an academic research assistant using RAG and LangChain to retrieve, rank, and summarize papers with FAISS and SciBERT embeddings. Integrated automated systems for image detection in satellite imagery."
+
+---
+
+**Resume 3:**
+
+**Summary:**  
+Data Analysis professional with experience in statistical analysis and ETL processes.
+
+**Relevant Skills:**  
+- Data Analysis  
+- ETL Development  
+- Hypothesis Testing  
+
+**Main Highlight:**  
+"Designed scalable data models and dashboards to reduce decision-making time by 40%. Implemented optimized data pipelines at Draup Business Solutions, improving query performance and data integrity."
+
+**Resume 1:**
+
+---
+
+### Summary:
+This candidate excels in data engineering and analytics, demonstrating strong ETL capabilities using PySpark and SQL on AWS. Their experience includes optimizing data pipelines, developing predictive models, and enhancing decision-making processes through dashboards.
+
+### Relevant Skills:
+- ETL Development
+- Data Modeling & Database Systems
+- Python & SQL Proficiency
+- Airflow Experience
+- Power BI Implementation
+
+### Main Highlights:
+1. Implemented a PySpark-based framework on AWS to improve data integrity by 35%, reducing end-to-end data reliability.
+2. Engineered dashboards using Airflow and Power BI, optimizing stakeholder decision-making processes with cross-functional collaboration.
+3. Developed an algorithm for claims matching, resulting in a 3x increase in net recovery rates and $50M savings.
+4. Simplified data extraction phases using Python and SQL, decreasing analysis time by 50%.
+5. Collaborated with CPG companies to enhance AR distribution efficiency through time series data analysis in Python.
+
+--- 
+
+This evaluation highlights the candidate's technical expertise and ability to translate data into actionable insights, aligning well with LiveRamp's requirements for a Data & Analytics Engineering Intern.

@@ -5,7 +5,6 @@ import streamlit as st
 import sqlite3
 from sentence_transformers import SentenceTransformer, util
 from datetime import datetime
-from langchain_ollama import ChatOllama
 
 UPLOAD_DIR = "uploaded_data"
 JD_DIR = os.path.join(UPLOAD_DIR, "jds")
@@ -16,7 +15,6 @@ os.makedirs(JD_DIR, exist_ok=True)
 os.makedirs(RESUME_DIR, exist_ok=True)
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
-llm = ChatOllama(model='deepseek-r1:7b')
 
 def extract_text_from_pdf(file_path):
     with open(file_path, 'rb') as f:
@@ -42,7 +40,7 @@ def extract_sections(text):
 
 def weighted_score(resume_sections, jd_text):
     jd_emb = model.encode(jd_text, convert_to_tensor=True)
-    weights = {"skills": 0.1, "experience": 0.6, "projects": 0.3}
+    weights = {"skills": 0.1, "experience": 0.6, "projects": 0.3}## make this dynamic that can be set by the user from the UI
     score = 0.0
     for sec, text in resume_sections.items():
         if text.strip() == "":
@@ -51,31 +49,6 @@ def weighted_score(resume_sections, jd_text):
         sim = util.pytorch_cos_sim(emb, jd_emb).item()
         score += weights.get(sec, 0.0) * sim
     return round(score * 100, 2)
-
-def summarize_resume_with_jd(resume_text, jd_text):
-    prompt = f"""
-You are an AI assistant. Given the following resume and job description, generate a professional summary and key skills:
-
-Job Description:
-{jd_text}
-
-Resume:
-{resume_text[:2000]}
-
-Return in this format:
-Summary: <brief summary paragraph>
-Key Skills: <comma-separated skills>
-Experience: <brief experience sentence>
-"""
-    try:
-        response = llm.invoke(prompt)
-        summary_block = response.content.strip()
-        summary_start = summary_block.find("Professional Summary:")
-        if summary_start != -1:
-            return summary_block[summary_start:].strip()
-        return summary_block
-    except Exception as e:
-        return f"Error: {e}"
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)
@@ -110,38 +83,11 @@ def truncate_scores():
 
 init_db()
 
-st.set_page_config(page_title="Resume Analyzer Pro", layout="wide", initial_sidebar_state="expanded")
-st.markdown("""
-    <style>
-        body {
-            background-color: #0e1117;
-            color: white;
-        }
-        .stApp {
-            background-color: #0e1117;
-        }
-        .stDataFrame, .stTextArea, .stSelectbox, .stButton > button {
-            background-color: #1c1f26;
-            color: white;
-        }
-        .css-1v0mbdj, .css-12oz5g7 {
-            background-color: #1c1f26;
-            color: white;
-        }
-    </style>
-""", unsafe_allow_html=True)
-st.title("📊 Resume Analyzer Pro")
+st.title("Resume-to-JD Matching Dashboard")
 
-col1, col2 = st.columns(2)
-with col1:
-    st.header("📥 Upload Resumes")
-    uploaded_resumes = st.file_uploader("Upload Resume(s)", type=["pdf"], accept_multiple_files=True)
-
-with col2:
-    st.header("📋 Job Description")
-    uploaded_jd = st.file_uploader("Upload Job Description", type=["txt"])
-    jd_files = sorted(os.listdir(JD_DIR))
-    selected_jd = st.selectbox("Select JD", jd_files)
+st.sidebar.header("Upload Section")
+uploaded_jd = st.sidebar.file_uploader("Upload Job Description", type=["txt"])
+uploaded_resumes = st.sidebar.file_uploader("Upload Resume(s)", type=["pdf"], accept_multiple_files=True)
 
 if uploaded_jd:
     jd_name = uploaded_jd.name
@@ -159,12 +105,15 @@ if uploaded_resumes:
 else:
     uploaded_resume_names = []
 
+jd_files = sorted(os.listdir(JD_DIR))
+selected_jd = st.selectbox("Select a Job Description", jd_files)
+
 if selected_jd:
     with open(os.path.join(JD_DIR, selected_jd), 'r', encoding='utf-8') as f:
         jd_text = f.read()
-    st.text_area("Job Description Content", jd_text, height=200)
+    st.text_area("Selected JD Content", jd_text, height=200)
 
-    if st.button("Analyze Resumes") and uploaded_resume_names:
+    if st.button("Run Scoring") and uploaded_resume_names:
         db_df = load_scores()
         processed_resumes = set(db_df.query(f'jd == "{selected_jd}"')['resume'])
         current_scores = []
@@ -186,30 +135,14 @@ if selected_jd:
             save_scores_to_db(new_df)
             st.success(f"Scored {len(current_scores)} new resume(s).")
 
-st.divider()
-st.subheader("📈 Resume Analysis Dashboard")
-scores_df = load_scores()
-filtered = scores_df[scores_df["jd"] == selected_jd].sort_values("score", ascending=False).reset_index(drop=True)
-selected_rows = st.multiselect("Select resumes to summarize:", filtered["resume"].tolist())
-st.dataframe(filtered, use_container_width=True, height=300)
-
-if selected_rows:
-    st.subheader("🧠 LLM-Powered Summaries")
-    for resume_name in selected_rows:
-        path = os.path.join(RESUME_DIR, resume_name)
-        text = extract_text_from_pdf(path)
-        summary = summarize_resume_with_jd(text, jd_text)
-        with st.container():
-            st.markdown(f"""
-            <div style='background-color:#1e2230;padding:20px;border-radius:10px;margin-bottom:10px;'>
-                <h4 style='color:#a3d3ff;'>{resume_name}</h4>
-                <pre style='color:white;background-color:#23283b;border:none;'>{summary}</pre>
-            </div>
-            """, unsafe_allow_html=True)
-
-csv_all = scores_df.to_csv(index=False).encode('utf-8')
-st.download_button("⬇️ Download All Scores", csv_all, "all_jd_resume_scores.csv", "text/csv")
-
 if st.sidebar.button("Reset Score Database"):
     truncate_scores()
     st.sidebar.success("All resume scores have been cleared.")
+
+st.subheader("Top Resumes for Selected JD")
+scores_df = load_scores()
+filtered = scores_df[scores_df["jd"] == selected_jd].sort_values("score", ascending=False).reset_index(drop=True)
+st.dataframe(filtered, use_container_width=True, height=400)
+
+csv_all = scores_df.to_csv(index=False).encode('utf-8')
+st.download_button("Download All Scores (CSV)", csv_all, "all_jd_resume_scores.csv", "text/csv")

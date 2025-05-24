@@ -1,0 +1,16 @@
+About the job
+Required Qualifications:
+
+Bachelor’s degree or foreign equivalent required from an accredited institution. Will also consider three years of progressive experience in the specialty in lieu of every year of education.
+Candidate must be located within commuting distance of Cupertino, CA or Austin, TX or be willing to relocate to the area. This position may require travel within the US.
+At least 2 years of experience in Information Technology.
+Hands-on experience with SQL, Advanced SQL
+Proven experience in PySpark is required.
+Proficiency in AB Testing 
+Experience with Scala or Python is required.
+Preferred Qualifications:
+
+Proficiency in AB Testing 
+Marketing Analytics domain knowledge is an asset
+Excellent problem-solving and analytical skills, and the ability to work well under tight deadlines.
+Excellent interpersonal skills and the ability to collaborate effectively with cross-functional teams

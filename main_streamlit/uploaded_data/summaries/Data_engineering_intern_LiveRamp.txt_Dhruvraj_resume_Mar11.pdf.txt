@@ -1,8 +1,6 @@
-Professional Summary:**
-Highly motivated and detail-oriented Data Science Intern with expertise in data engineering, analytics, and machine learning. Proficient in Python, SQL, and big data tools like Spark and Hadoop. Proven track record of streamlining data processing workflows, improving data accuracy, and developing robust ETL pipelines.
-
-**Key Skills:**
-Python, SQL, Data Modeling, ETL concepts, Database Systems (relational and non-relational), Big Data Tools (Spark, Hadoop, Kafka), Machine Learning (TensorFlow, PyTorch, LLMs), Cloud Computing (AWS Suite), Git/GitHub, CI/CD, Data Quality Initiatives.
-
-**Experience:**
-Assisted in developing, maintaining, and optimizing data pipelines and platforms; collaborated with cross-functional teams to design and implement analytics dashboards and reporting tools; contributed to data quality initiatives by monitoring and ensuring the integrity of data across systems.
+📝 Relevance:
+The candidate's Master's degree in Data Science and experience as a Data Analyst and Student Research Assistant at Texas A&M University suggest they have a strong foundation in data science, analytics, and problem-solving. However, their skills and experience do not explicitly match the requirements of designing and optimizing data pipelines and collaborating with cross-functional teams, which are critical components of this internship.
+🔧 JD-Matched Skills:
+• Python: The candidate has mentioned proficiency in Python, which is a requirement for the role.
+• Data Modeling: The candidate's experience with ETL processes and hypothesis testing suggests they have a strong understanding of data modeling concepts.
+• Database Systems: The candidate's experience with MySQL, DynamoDB, and other databases indicates they have knowledge of database systems, but this is not explicitly mentioned in the JD.

@@ -1,0 +1,4 @@
+📝 Relevance:
+Dhruvraj Singh Rathore's background and experience are more closely aligned with this role, as he has worked on data quality monitoring systems, ETL pipelines, and collaborative projects that involve translating business requirements into technical solutions. His experience in machine learning, deep learning, and big data tools could also be beneficial for this position.
+🔧 JD-Matched Skills:
+• Machine Learning frameworks like Scikit-learn, TensorFlow, PyTorch, and LLMs: This skill is relevant to the job description, as it involves designing and optimizing data pipelines, enabling analytics solutions, and contributing to LiveRamp's data infrastructure.

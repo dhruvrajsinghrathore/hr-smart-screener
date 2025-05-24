@@ -1,0 +1,7 @@
+Here is a professional summary and key skills based on the provided resume and job description:
+
+**Summary:** Highly motivated and detail-oriented AI Intern with a Master's degree in Data Science, seeking to apply machine learning and deep learning techniques to drive innovation and solve complex problems in edge computing.
+
+**Key Skills:** Python, R programming, PyTorch, Scikit-learn, TensorFlow, Pandas, NumPy, SQL, PostgreSQL, MongoDB, Redis, AWS Suite (EMR, IAM, S3, EC2, Glue, Lambda), Apache Spark (PySpark), DevOps, Data manipulation, image processing, semantic segmentation, convolutional neural networks (CNNs).
+
+**Experience:** Assisted in developing an automated method to identify and map cotton crop areas using satellite imagery from Google Earth Engine, implemented image processing techniques to generate predicted masks highlighting cotton areas while masking other crops.

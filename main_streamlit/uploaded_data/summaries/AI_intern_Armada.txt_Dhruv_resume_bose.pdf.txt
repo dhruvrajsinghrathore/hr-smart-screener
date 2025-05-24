@@ -1,0 +1,7 @@
+Professional Summary:
+Highly motivated and detail-oriented data science intern with expertise in machine learning, Python, R, SQL, and big data technologies. Seeking to leverage my skills in building, training, and fine-tuning machine learning models, conducting research on AI trends, and collaborating with cross-functional teams.
+
+Key Skills: Python, R, SQL, TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Machine Learning, Deep Learning, NLP, Computer Vision, AWS Suite (EMR, S3, EC2, Glue, Lambda), Spark, DynamoDB, Snowflake
+
+Experience:
+Utilized data analysis and machine learning skills to drive business insights as a Data Analyst at Draup Business Solutions Bangalore, India, where I led cross-functional initiatives for developing data quality monitoring systems and integrated serverless data retrieval systems using AWS Lambda, S3, and DynamoDB.

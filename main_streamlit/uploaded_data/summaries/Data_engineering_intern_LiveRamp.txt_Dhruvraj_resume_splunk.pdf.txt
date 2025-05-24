@@ -1,0 +1,8 @@
+Professional Summary:**
+Highly motivated and detail-oriented data science intern with expertise in Python, SQL, and big data tools. Proven track record of developing efficient ETL pipelines, improving data quality, and contributing to data-driven insights using machine learning techniques.
+
+**Key Skills:**
+Python, SQL, Spark, PySpark, TensorFlow, PyTorch, R, SAS, Pandas, NumPy, Matplotlib, Scikit-learn, Shell Script, MySQL, DynamoDB, Redis, AWS Suite (EMR, S3, EC2, Glue, Lambda), Data Build Tool (DBT), Apache Airflow, Docker, Git/GitHub, CI/CD, Hugging Face Transformers, Data Analytics, Machine Learning, Statistical Modeling, Hypothesis Testing, Big Data Processing, Cloud Computing.
+
+**Experience:**
+As a data science intern, assisted in developing and optimizing data pipelines, collaborating with engineers to build and enhance data models, and contributing to data quality initiatives using Python, SQL, and big data tools.

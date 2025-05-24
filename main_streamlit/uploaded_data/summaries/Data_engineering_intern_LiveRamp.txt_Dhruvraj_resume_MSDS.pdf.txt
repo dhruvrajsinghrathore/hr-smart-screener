@@ -1,0 +1,8 @@
+Professional Summary:**
+As a detail-oriented and analytical individual with expertise in machine learning, deep learning, and big data, I am excited to contribute my skills and passion for data engineering to help transform raw data into actionable insights at LiveRamp.
+
+**Key Skills:** 
+Python, SQL, Data Modeling, ETL Concepts, Database Systems (Relational and Non-Relational), Big Data Tools (Spark, Hadoop, Kafka), Analytics Dashboards, Reporting Tools, Collaboration, Problem-Solving, Analytical Mindset
+
+**Experience:**
+With a strong background in developing AI applications, including personalized research assistants using RAG and LangChain, I am well-equipped to design and optimize data pipelines, enabling analytics solutions, and contributing to LiveRamp's data infrastructure.

@@ -1,0 +1,8 @@
+Professional Summary:**
+Highly motivated and detail-oriented data scientist with a Master's degree in Data Science, seeking an AI Intern role to apply my analytical skills and knowledge of machine learning frameworks to drive business growth and innovation.
+
+**Key Skills:** 
+Python, PySpark, SQL, Airflow, TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, JIRA, Power BI, data analysis, data mining, data wrangling, data visualization, cloud computing (AWS), machine learning, deep learning, NLP, computer vision.
+
+**Experience:**
+Proven experience in data analysis, data science, and business solutions, with a strong track record of improving data integrity, reducing manual efforts, and increasing accuracy through the use of scalable ETL frameworks, machine learning models, and data visualization tools.

@@ -1,0 +1,9 @@
+Here is the professional summary, key skills, and experience based on the provided resume and job description:
+
+Summary:
+As a detail-oriented data engineering intern with proficiency in Python, SQL, and big data tools, I excel at designing and optimizing data pipelines, analyzing complex problems with data-driven solutions, and collaborating with cross-functional teams to deliver actionable insights.
+
+Key Skills: Data Modeling, ETL concepts, Database Systems (Relational and Non-Relational), Big Data Tools (Spark, Hadoop, Kafka), Python, SQL, Cloud Computing (AWS Suite), Machine Learning, Statistical Modeling, Hypothesis Testing
+
+Experience:
+Currently working as a Student Research Assistant at Texas A&M University, utilizing my analytical skills to derive actionable insights from Medicaid data using Python and SAS, while maintaining data quality initiatives by monitoring and ensuring the integrity of data across systems.

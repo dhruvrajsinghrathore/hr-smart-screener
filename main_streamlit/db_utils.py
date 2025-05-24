@@ -1,6 +1,7 @@
 import os
 import sqlite3
 import pandas as pd
+import glob
 
 UPLOAD_DIR = "uploaded_data"
 DB_PATH = os.path.join(UPLOAD_DIR, "scores.db")
@@ -31,14 +32,60 @@ def save_scores_to_db(df):
     conn.commit()
     conn.close()
 
-def delete_jds(jd_list):
+def delete_jds(jd_files):
+    """Delete JD files and their associated scores from the database"""
+    if not jd_files:
+        return
+
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
-    for jd in jd_list:
-        c.execute("DELETE FROM scores WHERE jd = ?", (jd,))
-        jd_path = os.path.join("uploaded_data", "jds", jd)
-        if os.path.exists(jd_path):
-            os.remove(jd_path)
-    conn.commit()
-    conn.close()
+    
+    try:
+        # Delete from database
+        placeholders = ','.join(['?' for _ in jd_files])
+        c.execute(f"DELETE FROM scores WHERE jd IN ({placeholders})", jd_files)
+        conn.commit()
+
+        # Delete files
+        for jd_file in jd_files:
+            file_path = os.path.join(UPLOAD_DIR, "jds", jd_file)
+            if os.path.exists(file_path):
+                os.remove(file_path)
+                
+        # Also delete any associated summaries
+        for jd_file in jd_files:
+            summary_pattern = os.path.join(UPLOAD_DIR, "summaries", f"{jd_file}_*.txt")
+            for summary_file in glob.glob(summary_pattern):
+                os.remove(summary_file)
+                
+    except Exception as e:
+        print(f"Error deleting JDs: {e}")
+    finally:
+        conn.close()
+
+def delete_resumes(jd_name, resume_names):
+    """Delete selected resumes for a specific JD from the database"""
+    if not resume_names:
+        return
+        
+    conn = sqlite3.connect(DB_PATH)
+    c = conn.cursor()
+    
+    try:
+        # Delete from database using parameterized query
+        placeholders = ','.join(['?' for _ in resume_names])
+        c.execute(f"DELETE FROM scores WHERE jd = ? AND resume IN ({placeholders})", 
+                 [jd_name] + resume_names)
+        conn.commit()
+        
+        # Delete associated summaries
+        for resume_name in resume_names:
+            summary_file = os.path.join(UPLOAD_DIR, "summaries", f"{jd_name}_{resume_name}.txt")
+            if os.path.exists(summary_file):
+                os.remove(summary_file)
+                
+    except Exception as e:
+        print(f"Error deleting resumes: {e}")
+    finally:
+        conn.close()
 

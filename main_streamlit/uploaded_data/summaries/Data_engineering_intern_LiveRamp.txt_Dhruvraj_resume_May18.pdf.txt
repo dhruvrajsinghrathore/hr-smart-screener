@@ -1,8 +1,0 @@
-Professional Summary:**
-Highly motivated Data Science Intern with 2+ years of experience in designing and optimizing data pipelines, developing data quality monitoring systems, and collaborating with cross-functional teams to drive business insights. Proven track record of improving data integrity, processing time, and predictive accuracy using Python, SQL, Spark, and big data tools.
-
-**Key Skills:**
-Data Engineering, Data Science, ETL Development, Data Quality Monitoring, Analytics Dashboards, Big Data Tools (Spark, Hadoop, Kafka), Cloud Computing (AWS Suite), Database Management (MySQL, NoSQL, MongoDB), Machine Learning (LLMs, BERT, Llama3.2, LangChain), Predictive Analytics, Python, SQL, Pandas, NumPy, Matplotlib, Scikit-learn, Shell Script, Git/GitHub, CI/CD, Apache Airflow, Docker, Power BI, SnowFlake.
-
-**Experience:**
-Assisted in developing and optimizing high-performance ETL pipelines using PySpark and SQL on AWS EMR, improving data integrity by 35% and reducing processing time by 30%. Collaborated with cross-functional teams to transform raw data into actionable insights.

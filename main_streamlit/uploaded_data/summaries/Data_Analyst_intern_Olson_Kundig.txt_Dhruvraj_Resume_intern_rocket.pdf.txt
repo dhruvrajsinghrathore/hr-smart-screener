@@ -1,7 +1,0 @@
-Here is a professional summary and key skills for Dhruvraj Singh Rathore:
-
-**Summary:** As a detail-oriented Data Analyst with expertise in Python, SQL, and Power BI, I excel in driving data-driven insights that inform business decisions. With a strong educational background in Data Science, I possess the analytical and problem-solving skills to deliver high-quality results in fast-paced environments.
-
-**Key Skills:** Data Analysis, Python, SQL, Power BI, ETL Frameworks, Data Visualization, Agile Methodology, Project Management, Time Series Analysis, Machine Learning, Data Mining, Data Wrangling
-
-**Experience:** As a seasoned Data Analyst with 3+ years of experience, I have successfully implemented scalable data validation frameworks using PySpark and SQL in AWS, enhancing data integrity by up to 35%. I have also engineered dashboards, created predictive models, and integrated data visualization tools to drive business outcomes.

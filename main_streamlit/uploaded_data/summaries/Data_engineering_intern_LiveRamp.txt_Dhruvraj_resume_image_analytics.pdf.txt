@@ -1,8 +1,0 @@
-Professional Summary:**
-Highly motivated and detail-oriented Data Science graduate with expertise in data engineering, analytics, and machine learning. Proven track record of developing and implementing innovative solutions using Python, PyTorch, and other advanced technologies. Seeking an internship opportunity to apply my skills and knowledge in a dynamic environment like LiveRamp.
-
-**Key Skills:**
-Python, PyTorch, R Programming, Power BI, Matplotlib, Seaborn, SQL, Postgres, MongoDB, Data Warehouse, Redis, AWS Suite (EMR, IAM, S3, EC2, Glue, Lambda), Apache Spark (PySpark), DevOps, Data Modeling, ETL concepts, Database Systems (Relational and Non-Relational), Big Data Tools (Spark, Hadoop, Kafka), Machine Learning, Deep Learning, Convolutional Neural Networks (CNNs).
-
-**Experience:**
-Assisted in developing an automated method to identify and map cotton crop areas in the United States using satellite imagery from Google Earth Engine. Contributed to a project utilizing PyTorch for semantic segmentation on processed images, generating predicted mask images and evaluating model performance using Dice coefficient and IoU metrics.

@@ -1,4 +1,0 @@
-📝 Relevance:
-Dhruvraj Singh Rathore's Master of Science in Data Science and Bachelor of Technology in Computer Science Engineering background makes him a strong candidate for this role, as he has experience with data modeling, ETL concepts, and database systems. However, his resume lacks specific experience working with data pipelines, analytics dashboards, or collaborating with cross-functional teams to translate business requirements into technical solutions.
-🔧 JD-Matched Skills:
-• Experience with big data tools (such as Spark, Hadoop, or Kafka): This skill is not explicitly mentioned in the job description, but it could be considered a plus.

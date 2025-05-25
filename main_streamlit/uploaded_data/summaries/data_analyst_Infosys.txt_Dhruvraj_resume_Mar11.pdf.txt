@@ -1,5 +1,0 @@
-📝 Relevance:
-Dhruvraj Singh Rathore's background does not align with the job requirements as he lacks direct experience in Information Technology, specifically in areas like Advanced SQL, Marketing Analytics, and Proficiency in AB Testing.
-🔧 JD-Matched Skills:
-• Proven experience in PySpark: This skill directly matches one of the required qualifications.
-• Statistical Modeling, Hypothesis Testing: Although not explicitly mentioned in the job description, Dhruvraj has experience with these skills which are relevant to marketing analytics domain

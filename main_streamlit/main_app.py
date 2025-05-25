@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 import streamlit as st
 from resume_parser import extract_text_from_pdf, extract_sections, extract_email
-from scorer import weighted_score
+from scorer import weighted_score, save_detailed_scores, preprocess_jd
 from summarizer import summarize_resume_with_jd, summarize_resumes_with_jd, clear_summaries
 from db_utils import init_db, load_scores, save_scores_to_db, delete_jds, delete_resumes
 
@@ -137,13 +137,17 @@ if st.button("Analyze Resumes"):
                 resume_path = os.path.join(RESUME_DIR, resume_file)
                 resume_text = extract_text_from_pdf(resume_path)
                 sections = extract_sections(resume_text)
-                score = weighted_score(sections, jd_text)
+                scores = weighted_score(sections, jd_text)
                 email = extract_email(resume_text)
+                
+                # Save detailed scores for analysis
+                save_detailed_scores(jd_name, resume_file, scores)
+                
                 current_scores.append({
                     "jd": jd_name,
                     "resume": resume_file,
                     "email": email,
-                    "score": score,
+                    "score": scores["final_score"],
                     "timestamp": datetime.now().isoformat()
                 })
                 progress.progress((i + 1) / len(uploaded_resume_names))
@@ -265,8 +269,11 @@ if generate_button:
                 resume_text = extract_text_from_pdf(resume_path)
                 resume_texts.append(resume_text)
             
-            jd_text = open(os.path.join(JD_DIR, selected_jd), 'r', encoding='utf-8').read()
-            st.session_state.summaries = summarize_resumes_with_jd(resume_texts, jd_text, selected_resumes, selected_jd)
+            # Read and preprocess JD text
+            raw_jd_text = open(os.path.join(JD_DIR, selected_jd), 'r', encoding='utf-8').read()
+            processed_jd = preprocess_jd(raw_jd_text)
+            
+            st.session_state.summaries = summarize_resumes_with_jd(resume_texts, processed_jd, selected_resumes, selected_jd)
             st.session_state.current_summary_jd = selected_jd
 
 # Display summaries if they exist

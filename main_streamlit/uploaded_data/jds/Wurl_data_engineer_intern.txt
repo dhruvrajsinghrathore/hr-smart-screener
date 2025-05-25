@@ -1,0 +1,42 @@
+About the job
+About Wurl, LLC.
+
+At Wurl, our mission is to create innovative technologies and services that help accelerate the shift to streaming. At our core, we are innovators focused on driving the streaming industry forward with technologies that help connect viewers to the right content and ads. Our technology and data-driven solutions help companies reach new audiences, engage high-value viewers, and ultimately increase their revenue.
+
+In 2022, Wurl was acquired by AppLovin (Nasdaq: APP), a leading marketing platform, giving our employees the best of both worlds: the dynamic environment of a 150+ person startup as well as the stability of a high-growth public tech company. We invest in providing a culture that fosters passion, drives excellence, and encourages collaboration to drive innovation. Wurl is a fully-remote company that has been globally recognized for our people and technology, having been named a Great Place to Work by Fortune in 2022, 2023, and 2024; an Ad Tech Company of the Year finalist by the UK Business Tech Awards in 2023; a BIG Innovation Awards winner in 2024 and 2025; and the “Innovation in Advertising” winner by the StreamTV Awards in 2024.
+
+Data Engineer Intern (Remote - US)
+
+Wurl connects the world’s video content to global audiences. Our data platform powers advanced analytics, real-time decision-making, and secure operations across the OTT video streaming ecosystem.
+
+We’re looking for a Data Engineering Intern to assist in enhancing the security and reliability of our platform—specifically focusing on key rotation and credential lifecycle automation. This role will provide hands-on experience in data engineering, security operations, and cloud infrastructure, with guidance from experienced engineers and cross-functional teams.
+
+What You’ll Do
+
+Support the implementation and automation of key rotation policies and secure credential storage across our cloud infrastructure.
+Collaborate with the Data Engineering team to ensure proper access control and encryption practices are enforced in all ETL pipelines and data services.
+Assist in developing monitoring and alerting systems for key usage and rotation schedules.
+Contribute to internal documentation and knowledge bases related to key rotation procedures.
+Learn about and contribute to large-scale, cloud-native data systems.
+
+What You Bring
+
+Currently pursuing or recently completed a Bachelor’s or Master’s degree in Computer Science, Data Science, Cybersecurity, or related field.
+Familiarity with Python and SQL.
+Understanding of basic cloud concepts (AWS preferred).
+Strong interest in data security, access control, and automation.
+Eagerness to learn and contribute to a fast-paced, remote engineering team.
+Excellent written and verbal communication skills.
+
+Nice to Have
+
+Coursework or experience with:
+Key management services (e.g., AWS KMS, …).
+Infrastructure-as-code tools like Terraform.
+SOC2, HIPAA, or other security compliance frameworks.
+CI/CD pipelines or secure software development practices.
+What We Offer
+
+Paid internship ($30/hr) with flexible scheduling.
+Remote-first work culture and support.
+Hands-on mentorship from senior engineers.

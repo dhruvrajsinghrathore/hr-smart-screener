@@ -32,7 +32,7 @@ Format for EACH resume:
 
 [RESUME_SUMMARY_START]
 📝 Relevance:
-<1-2 sentences stating if and how the candidate's background matches the job requirements. Be direct about their fit or lack of fit.>
+<1-2 sentences stating if and how the candidate's background matches the job requirements. Focus on technical skills and experience alignment.>
 
 🔧 JD-Matched Skills:
 • <skill 1>: <brief explanation of how this skill matches a specific JD requirement>
@@ -41,7 +41,7 @@ Format for EACH resume:
 • <skill 4>: <brief explanation of how this skill matches a specific JD requirement>
 [RESUME_SUMMARY_END]
 
-Job Description:
+Job Description Key Requirements:
 {jd_text}
 
 {batch_prompts}
@@ -50,7 +50,7 @@ Important Instructions:
 1. You MUST generate a summary for EACH resume in the same order they were provided
 2. Each summary MUST be wrapped in [RESUME_SUMMARY_START] and [RESUME_SUMMARY_END] markers
 3. Each summary MUST include ALL section emojis (📝, 🔧)
-4. For Relevance: Be direct about whether the candidate is a good fit or not
+4. For Relevance: Focus on technical skills and experience alignment with JD requirements
 5. For Skills: Only list skills that SPECIFICALLY match JD requirements
 6. If fewer than 4 relevant skills found, still list all matches but note "Limited relevant skills found"
 7. DO NOT skip any resumes
@@ -60,7 +60,7 @@ Important Instructions:
 
     try:
         response = ollama.chat(
-            model='llama3.2',
+            model="llama3.2",
             messages=[{"role": "user", "content": prompt}]
         )
         return response['message']['content'].strip()

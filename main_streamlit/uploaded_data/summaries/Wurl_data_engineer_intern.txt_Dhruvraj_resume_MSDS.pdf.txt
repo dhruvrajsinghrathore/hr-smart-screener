@@ -1,6 +1,5 @@
-📝 Relevance:
-The candidate's experience in developing machine learning models, including regression techniques and data visualization tools like Scikit-learn, TensorFlow, PyTorch, and LLMs, is relevant to the job requirements. Their proficiency in Python, SQL, and big data tools aligns with the JD requirements.
+📝 Relevance: 
+Dhruvraj Singh Rathore has a strong background in machine learning and big data, which aligns with the job requirements. His experience in developing AI applications and familiarity with Python, Scikit-learn, PyTorch, and LLMs make him a good fit for this role.
 🔧 JD-Matched Skills:
-• Machine Learning: Built machine learning models using LightGBM and Random Forest for predictive modeling.
-• Scikit-learn: Utilized feature scaling, one-hot encoding, and time-series analysis for traffic congestion prediction.
-• SQL: Automated data extraction and preprocessing using Python and SQL.
+• Familiarity with Python: matches "Familiarity with Python and SQL"
+• Machine Learning frameworks like Scikit-learn, TensorFlow, PyTorch, and LLMs: closely aligns with the job requirements

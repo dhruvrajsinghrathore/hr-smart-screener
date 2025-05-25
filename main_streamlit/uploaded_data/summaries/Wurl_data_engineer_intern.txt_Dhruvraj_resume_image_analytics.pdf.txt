@@ -1,6 +1,0 @@
-📝 Relevance:
-The candidate's experience in developing AI applications, including machine learning and deep learning models, is relevant to the job requirements. Their expertise in Python, SQL, and big data tools such as PySpark, TensorFlow, and AWS Suite aligns with the JD requirements.
-🔧 JD-Matched Skills:
-• Python: Developed automated methods using UNET algorithms in PyTorch for image processing and segmentation.
-• AWS Suite (EMR, IAM, S3, EC2, Glue, Lambda): Utilized AWS EMR for ETL pipelines and optimized data ingestion workflows.
-• SQL: Automated data extraction and preprocessing using Python and SQL.

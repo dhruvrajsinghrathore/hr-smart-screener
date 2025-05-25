@@ -1,6 +1,0 @@
-📝 Relevance:
-The candidate's Master's degree in Data Science and experience as a Data Analyst and Student Research Assistant at Texas A&M University suggest they have a strong foundation in data science, analytics, and problem-solving. However, their skills and experience do not explicitly match the requirements of designing and optimizing data pipelines and collaborating with cross-functional teams, which are critical components of this internship.
-🔧 JD-Matched Skills:
-• Python: The candidate has mentioned proficiency in Python, which is a requirement for the role.
-• Data Modeling: The candidate's experience with ETL processes and hypothesis testing suggests they have a strong understanding of data modeling concepts.
-• Database Systems: The candidate's experience with MySQL, DynamoDB, and other databases indicates they have knowledge of database systems, but this is not explicitly mentioned in the JD.

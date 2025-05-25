@@ -1,0 +1,6 @@
+📝 Relevance:
+This candidate has a strong background in data analysis and science, with experience in working with AWS, Python, and machine learning regression models. Their research experience aligns with the job requirements.
+🔧 JD-Matched Skills:
+• 💻 Familiarity with Python and SQL.
+• 🔩 Understanding of basic cloud concepts (AWS preferred).
+• 🤖 Strong interest in data security, access control, and automation.

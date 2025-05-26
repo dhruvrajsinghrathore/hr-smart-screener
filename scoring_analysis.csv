@@ -93,3 +93,4 @@ timestamp,jd_name,resume_name,bert_score,llama_score,keyword_overlap,final_score
 2025-05-26 10:04:52,AI_intern_Armada.txt,Dhruvraj_resume_SAP.pdf,36.74,80.0,33.91,47.13
 2025-05-26 10:04:53,AI_intern_Armada.txt,Dhruvraj_resume_splunk.pdf,36.74,80.0,33.91,47.13
 2025-05-26 10:04:54,AI_intern_Armada.txt,Dhruvraj_resume.pdf,29.32,80.0,32.17,42.42
+2025-05-26 10:09:43,Data_engineering_intern_LiveRamp.txt,Dhruvraj_resume_SAP.pdf,39.93,80.0,29.77,48.42

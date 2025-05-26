@@ -81,3 +81,15 @@ timestamp,jd_name,resume_name,bert_score,llama_score,keyword_overlap,final_score
 2025-05-26 09:43:45,AI_intern_Armada.txt,Dhruvraj_resume_image_analytics.pdf,32.91,80.0,26.96,43.79
 2025-05-26 09:43:46,AI_intern_Armada.txt,Dhruvraj_resume_USHunger.pdf,28.54,80.0,30.43,41.69
 2025-05-26 09:43:48,AI_intern_Armada.txt,Dhruvraj_Resume_intern_rocket.pdf,33.84,80.0,27.83,44.48
+2025-05-26 09:54:11,Data_engineering_intern_LiveRamp.txt,Dhruv_resume_bose.pdf,36.53,70.0,29.77,43.89
+2025-05-26 09:54:12,Data_engineering_intern_LiveRamp.txt,Dhruvraj_resume_Adobe_DS.pdf,37.38,80.0,25.95,46.32
+2025-05-26 09:54:14,Data_engineering_intern_LiveRamp.txt,Dhruvraj_resume_Alcon.pdf,37.02,60.0,23.66,40.76
+2025-05-26 09:56:10,AI_intern_Armada.txt,Dhruv_resume_bose.pdf,29.48,40.0,33.04,32.64
+2025-05-26 09:56:11,AI_intern_Armada.txt,Dhruvraj_resume_Adobe_DS.pdf,29.25,55.0,32.17,36.13
+2025-05-26 09:56:12,AI_intern_Armada.txt,Dhruvraj_resume_Alcon.pdf,28.43,70.0,29.57,38.99
+2025-05-26 09:56:14,AI_intern_Armada.txt,Dhruvraj_resume_splunk.pdf,36.74,80.0,33.91,47.13
+2025-05-26 09:56:50,Intelsat_DS_intern.txt,Dhruvraj_resume_Alcon.pdf,29.72,70.0,24.0,38.93
+2025-05-26 09:56:52,Intelsat_DS_intern.txt,Dhruvraj_resume_splunk.pdf,37.61,80.0,27.5,46.69
+2025-05-26 10:04:52,AI_intern_Armada.txt,Dhruvraj_resume_SAP.pdf,36.74,80.0,33.91,47.13
+2025-05-26 10:04:53,AI_intern_Armada.txt,Dhruvraj_resume_splunk.pdf,36.74,80.0,33.91,47.13
+2025-05-26 10:04:54,AI_intern_Armada.txt,Dhruvraj_resume.pdf,29.32,80.0,32.17,42.42

@@ -1,6 +1,0 @@
-📝 Relevance:
-The candidate's experience in developing machine learning models, including regression techniques and data visualization tools like Scikit-learn, TensorFlow, PyTorch, and LLMs, is relevant to the job requirements. Their proficiency in Python, SQL, and big data tools aligns with the JD requirements.
-🔧 JD-Matched Skills:
-• Machine Learning: Built machine learning models using LightGBM and Random Forest for predictive modeling.
-• Scikit-learn: Utilized feature scaling, one-hot encoding, and time-series analysis for traffic congestion prediction.
-• SQL: Automated data extraction and preprocessing using Python and SQL.

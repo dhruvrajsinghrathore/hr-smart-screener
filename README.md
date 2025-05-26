@@ -14,13 +14,13 @@ A modern web application that analyzes resumes against job descriptions using AI
 - Score history tracking
 - Export results to CSV
 
-## Prerequisites 📋
+## Prerequisites
 
 - Python 3.8 or higher
 - Git
 - Ollama locally available
 
-## Installation 🚀
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -33,7 +33,7 @@ cd hr-smart-screener
 pip install -r requirements.txt
 ```
 
-## Running the Application 🏃‍♂️
+## Running the Application
 
 1. Start the Streamlit app:
 ```bash
@@ -70,7 +70,7 @@ http://localhost:8501
 5. **Export Results**:
    - Click "Export All Scores" to download CSV
 
-## Project Structure 📁
+## Project Structure
 
 ```
 hr-smart-screener/

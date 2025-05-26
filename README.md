@@ -1,6 +1,6 @@
 # Smart Resume Analyzer 🎯
 
-A modern web application that analyzes resumes against job descriptions using AI and machine learning. The app uses a combination of BERT embeddings, Together.ai's LLaMA model, and keyword matching to provide comprehensive resume scoring and analysis.
+A modern web application that analyzes resumes against job descriptions using AI and machine learning. The app uses a combination of BERT embeddings, LLaMA model, and keyword matching to provide comprehensive resume scoring and analysis.
 
 ## Features
 

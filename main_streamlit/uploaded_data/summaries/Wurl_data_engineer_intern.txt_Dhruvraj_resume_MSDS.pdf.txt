@@ -1,5 +1,0 @@
-📝 Relevance: 
-Dhruvraj Singh Rathore has a strong background in machine learning and big data, which aligns with the job requirements. His experience in developing AI applications and familiarity with Python, Scikit-learn, PyTorch, and LLMs make him a good fit for this role.
-🔧 JD-Matched Skills:
-• Familiarity with Python: matches "Familiarity with Python and SQL"
-• Machine Learning frameworks like Scikit-learn, TensorFlow, PyTorch, and LLMs: closely aligns with the job requirements

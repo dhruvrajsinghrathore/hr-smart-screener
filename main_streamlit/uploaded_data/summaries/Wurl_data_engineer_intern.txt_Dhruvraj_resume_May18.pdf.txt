@@ -1,5 +1,0 @@
-📝 Relevance:
-This candidate's background in data science and machine learning aligns with the job requirements, particularly in areas of data security, access control, and automation. Their experience in deploying high-performance ETL pipelines using PySpark and SQL on AWS EMR demonstrates a strong technical skillset.
-🔧 JD-Matched Skills:
-• Data quality monitoring system: The candidate developed a system using Apache Airflow to process 200M+ records daily, improving data accuracy.
-• Serverless data retrieval system: They integrated a serverless system using AWS Lambda, S3, and DynamoDB, streamlining ad-hoc client data requests.

@@ -1,5 +1,0 @@
-📝 Relevance:
-Although this candidate's technical skills are broad, their experience in predictive analytics and machine learning aligns with the job requirements. However, there is limited relevance to specific JD requirements such as data security and access control.
-🔧 JD-Matched Skills:
-• Predictive analytics: The candidate built machine learning models to predict customer payment dates, improving cash flow forecasting accuracy.
-• Machine learning: They developed a U-Net model in PyTorch to detect cotton fields from satellite images, achieving 92% IoU.

@@ -1,5 +1,0 @@
-📝 Relevance: 
-Dhruvraj Singh Rathore has a relevant background in data science and computer science, which is close to the job requirements. However, his skills are not as directly aligned as they could be. His experience with PySpark, SQL, and Python makes him a potential candidate.
-🔧 JD-Matched Skills:
-• Familiarity with Python: matches "Familiarity with Python and SQL"
-• PySpark: closely aligns with the job requirements

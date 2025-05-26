@@ -80,7 +80,6 @@ hr-smart-screener/
 ├── resume_parser.py     # PDF parsing and text extraction
 ├── db_utils.py         # Database operations
 ├── requirements.txt    # Python dependencies
-├── .env               # Environment variables
 └── uploaded_data/     # Storage for uploads
     ├── resumes/
     ├── jds/
